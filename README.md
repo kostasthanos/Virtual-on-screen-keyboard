@@ -102,6 +102,6 @@ if frames == 20:
 for i in range(alpha_len):
     draw_letters(i, letters[i]) # Use of draw_letters function
     if (let_index == i) and (let_sound is True):
-    ...
+    [...](https://github.com/kostasthanos/Virtual-on-screen-keyboard/blob/main/vkct.py)
 
 ```
