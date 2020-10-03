@@ -4,7 +4,7 @@ Virtual Keyboard with color tracking using Python and OpenCV library.
 ## Main Idea
 The main idea of this project is to display the keys of a keyboard on the screen and allow the user to select (write) a character whent the desired color (or finger) is inside the ractangle that corresponding to a key.
 
-## Setting to draw the on-screen keyboard
+## Settings for drawing the on-screen keyboard
 ### [1] Rectangle and Text settings
 ```python
 width, height = 65, 65
@@ -39,3 +39,4 @@ Explanation of the 6 final alphabet symbols
 |    _   | Leave one character empty (SPACE) |
 |    ]   | Change between numbers/symbols (NUM2SYM) |
 
+For the drawing of all the characters (numbers,letters and commands) see the functions [draw_letters](https://github.com/kostasthanos/Virtual-on-screen-keyboard/blob/main/vkct.py) and [draw_extra_chars](https://github.com/kostasthanos/Virtual-on-screen-keyboard/blob/main/vkct.py)
