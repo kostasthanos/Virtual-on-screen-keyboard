@@ -56,17 +56,17 @@ start_write_y = 35
 In this window someone can see the following :
 1. Selected characters - text 'typed' so far
 2. Active writting line
-3. Upper/Lower case letters (green color for the selected one)
+3. Upper/Lower case option (green color for the selected one)
 4. Press 'p' or 'P' to print and save the message to a txt file
 ### txt file name
-Every time someone presses 'p' or 'P' the message is being saved on a txt file with name in format :
+Every time someone is pressing 'p' or 'P' the message is being saved on a txt file with name in format :
 ```
-messagenum_DD-MM-YY_HH:MM -      num : number of message in file
-                          - DD-MM-YY : Current date in format day-month-year
-                          -    HH:MM : Current time in format hour:minutes
+messagenum_DD-MM-YY_HH:MM -      num : Number of message in file
+                          - DD-MM-YY : Current date (day-month-year)
+                          -    HH:MM : Current time (hour:minutes)
 e.g. message1_26-07-20_21:30.txt
 ```
-Check *[messages](https://github.com/kostasthanos/Virtual-on-screen-keyboard/tree/main/messages)* file to see some examplels.
+Check *[messages](https://github.com/kostasthanos/Virtual-on-screen-keyboard/tree/main/messages)* file to see some examples.
 
 <p align="center">
   <img width="600" height="250" src="Images/Paper frame.png">
