@@ -41,7 +41,27 @@ Explanation of the 6 final alphabet symbols
 
 For the drawing of all the characters (numbers,letters and commands) see the functions *[draw_letters](https://github.com/kostasthanos/Virtual-on-screen-keyboard/blob/main/vkct.py)* and *[draw_extra_chars](https://github.com/kostasthanos/Virtual-on-screen-keyboard/blob/main/vkct.py)*
 
-
 <p align="center">
   <img width="500" height="300" src="Images/keyboard1.png">
 </p>
+
+## Extra black window containing the selected characters (output message)
+```python
+paper = np.zeros((250,1000,3), np.uint8)
+cv2.namedWindow("Paper")
+# Starting position of text in "Paper" frame
+start_write_x = 5
+start_write_y = 35
+```
+
+<p align="center">
+  <img width="500" height="300" src="Images/Paper_frame.png">
+</p>
+
+## Color settings and color-tracking
+Define the lower and upper color for the color-tracking part
+```python
+lower_color = np.array([75, 169, 45], np.uint8)
+upper_color = np.array([96, 255, 255], np.uint8)
+```
+Alternative someone can use trackbars window. See *[Hand Gestures](https://github.com/kostasthanos/Hand-Gestures-and-Finger-Counting)* for more details.
