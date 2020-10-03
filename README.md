@@ -61,7 +61,9 @@ In this window someone can see the following :
 ### txt file name
 Every time someone presses 'p' or 'P' the message is being saved on a txt file with name in format :
 ```
-messagenum_DD-MM-YY_HH:MM
+messagenum_DD-MM-YY_HH:MM -      num : number of message in file
+                          - DD-MM-YY : Current date in format day-month-year
+                          -    HH:MM : Current time in format hour:minutes
 ```
 
 <p align="center">
