@@ -64,7 +64,9 @@ Every time someone presses 'p' or 'P' the message is being saved on a txt file w
 messagenum_DD-MM-YY_HH:MM -      num : number of message in file
                           - DD-MM-YY : Current date in format day-month-year
                           -    HH:MM : Current time in format hour:minutes
+e.g. message1_26-07-20_21:30.txt
 ```
+Check *[messages](https://github.com/kostasthanos/Virtual-on-screen-keyboard/tree/main/messages)* file to see some examplels.
 
 <p align="center">
   <img width="600" height="250" src="Images/Paper frame.png">
