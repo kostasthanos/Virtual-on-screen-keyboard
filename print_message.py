@@ -13,7 +13,6 @@ date_time = datetime.now().strftime("%d-%m-%y_%H:%M")
 
 # Directory (folder) of messages
 dir_name = 'messages'
-
 if not os.path.exists(dir_name):
     os.mkdir(dir_name) # Create folder if not exists
 
