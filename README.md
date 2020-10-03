@@ -77,3 +77,31 @@ lower_color = np.array([75, 169, 45], np.uint8)
 upper_color = np.array([96, 255, 255], np.uint8)
 ```
 Alternative someone can use trackbars window. See *[Hand Gestures](https://github.com/kostasthanos/Hand-Gestures-and-Finger-Counting)* for more details.
+
+## Print-write selected character
+First of all find the max contour in the frame. Find the center of the max contour and check if center is inside a letter box per row of rectangles in frame.
+```python
+contour = max(contours, key=cv2.contourArea) # Find the maximum contour each time (on each frame)  
+M = cv2.moments(contour)
+
+# Draw each contour
+cv2.drawContours(frame, [contour], -1, (0,255,0), 2)
+# Find each contour center
+if int(M["m00"])!=0:
+    cx = int(M["m10"] / M["m00"])
+    cy = int(M["m01"] / M["m00"])
+    cv2.circle(frame, (cx, cy), 2, (0,0,255), 2) # Draw center of each contour
+```
+
+Every 20 frames let user to add a new letter-character (beep sound).
+```python
+if frames == 20:
+    let_sound = True
+    frames = 0
+
+for i in range(alpha_len):
+    draw_letters(i, letters[i]) # Use of draw_letters function
+    if (let_index == i) and (let_sound is True):
+    ...
+
+```
