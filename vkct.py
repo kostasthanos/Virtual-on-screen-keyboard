@@ -138,12 +138,10 @@ def draw_extra_chars(let_index, text):
             x, y = start_x + i*(width + dist), start_y
 
     # Find the size of each character based on font, font-scale and font-thickness
-    text_size = cv2.getTextSize(text, font, fontScale-3, fontThickness-2)
-    
+    text_size = cv2.getTextSize(text, font, fontScale-3, fontThickness-2)    
     # Text position
     text_x = int((width - text_size[0][0])/2) + x + dist
     text_y = int((height + text_size[0][1])/2) + y + int((3*dist)/2)
-
     # Add text
     cv2.putText(frame, text, (text_x, text_y), font, fontScale-2, (0,0,255), fontThickness-2)
 
@@ -186,9 +184,6 @@ while True:
     lower_color = np.array([75, 169, 45], np.uint8)
     upper_color = np.array([96, 255, 255], np.uint8)
 
-    #lower_color = np.array([0, 12, 216], np.uint8)
-    #upper_color = np.array([40, 255, 255], np.uint8)
-
     # Apply mask on the hsv frame
     mask = cv2.inRange(hsv_frame, lower_color, upper_color)
 
@@ -196,8 +191,7 @@ while True:
     contours, hierarchy = cv2.findContours(mask, cv2.RETR_TREE, cv2.CHAIN_APPROX_NONE)
 
     if len(contours) > 0:
-        contour = max(contours, key=cv2.contourArea) # Find the maximum contour each time (on each frame)
-        
+        contour = max(contours, key=cv2.contourArea) # Find the maximum contour each time (on each frame)        
         M = cv2.moments(contour)
 
         # Draw each contour
