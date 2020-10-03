@@ -39,7 +39,7 @@ Explanation of the 6 final alphabet symbols
 |    _   | Leave one character empty (SPACE) |
 |    ]   | Change between numbers/symbols (NUM2SYM) |
 
-For the drawing of all the characters (numbers,letters and commands) see the functions *[draw_letters](https://github.com/kostasthanos/Virtual-on-screen-keyboard/blob/main/vkct.py)* and *[draw_extra_chars](https://github.com/kostasthanos/Virtual-on-screen-keyboard/blob/main/vkct.py)*.
+For the drawing of the characters (numbers,letters and commands) see the functions *[draw_letters](https://github.com/kostasthanos/Virtual-on-screen-keyboard/blob/main/vkct.py)* and *[draw_extra_chars](https://github.com/kostasthanos/Virtual-on-screen-keyboard/blob/main/vkct.py)*.
 
 <p align="center">
   <img width="500" height="300" src="Images/keyboard1.png">
