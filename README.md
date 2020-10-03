@@ -2,7 +2,7 @@
 Virtual Keyboard with color tracking using Python and OpenCV library.
 
 ## Main Idea
-The main idea of this project is to display the keys of a keyboard on the screen and allow the user to select (write) a character when the desired color (or finger) is inside the rectangle which correspondes to a key.
+The main idea of this project is to display the keys of a keyboard on the screen and allow the user to select (type) a character when the desired color (or finger) is inside the rectangle which corresponding to a key.
 
 ## Settings for drawing the on-screen keyboard
 ### [1] Rectangle and Text settings
