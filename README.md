@@ -106,3 +106,5 @@ for i in range(alpha_len):
     if (let_index == i) and (let_sound is True):
 ```
   [...](https://github.com/kostasthanos/Virtual-on-screen-keyboard/blob/main/vkct.py)
+
+For a full presentation of the working project watch the [video](https://www.youtube.com/watch?v=21fC7ZZgoKw).
