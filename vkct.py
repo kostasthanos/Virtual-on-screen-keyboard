@@ -179,9 +179,9 @@ while True:
     # Apply HSV format
     hsv_frame = cv2.cvtColor(bframe, cv2.COLOR_BGR2HSV)
 
-    # Color settings for YELLOW (this color can be changed to the desired one)
+    # Color settings for Green (this color can be changed to the desired one)
     # Define lower and upper color
-    lower_color = np.array([75, 169, 45], np.uint8)
+    lower_color = np.array([74, 192, 0], np.uint8)
     upper_color = np.array([96, 255, 255], np.uint8)
 
     # Apply mask on the hsv frame
