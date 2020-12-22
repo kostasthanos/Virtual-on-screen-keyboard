@@ -110,3 +110,6 @@ for i in range(alpha_len):
 More details about the code are being exlpained as comments inside the file [vkct.py](https://github.com/kostasthanos/Virtual-on-screen-keyboard/blob/main/vkct.py)
 
 For a full presentation of the working project watch the [video](https://www.youtube.com/watch?v=RSONBwBbhgA) in Youtube.
+
+## Author
+* **Konstantinos Thanos**
