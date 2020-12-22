@@ -1,6 +1,8 @@
 # Virtual on screen keyboard
 Virtual Keyboard with color tracking using Python and OpenCV library.
 
+For a full presentation of the working project watch the [video](https://www.youtube.com/watch?v=RSONBwBbhgA) in Youtube.
+
 ## Main Idea
 The main idea of this project is to display the keys of a keyboard on the screen and allow the user to select (type) a character when the desired color (or finger) is inside the rectangle which corresponds to a key.
 
@@ -105,6 +107,6 @@ for i in range(alpha_len):
     draw_letters(i, letters[i]) # Use of draw_letters function
     if (let_index == i) and (let_sound is True):
 ```
-  [...](https://github.com/kostasthanos/Virtual-on-screen-keyboard/blob/main/vkct.py)
+More details about the code are being exlpained as comments inside the file [vkct.py](https://github.com/kostasthanos/Virtual-on-screen-keyboard/blob/main/vkct.py)
 
 For a full presentation of the working project watch the [video](https://www.youtube.com/watch?v=RSONBwBbhgA) in Youtube.
