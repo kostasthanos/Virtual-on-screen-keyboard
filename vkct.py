@@ -1,7 +1,7 @@
 #======================================#
 # Virtual Keyboard with Color Tracking #
 #  using Python and OpenCV library     #
-#      ------------------------        #
+#--------------------------------------#
 #        Konstantinos Thanos           #
 #         Mathematician,MSc            #
 #               2020                   #
