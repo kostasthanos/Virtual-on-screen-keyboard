@@ -77,12 +77,12 @@ Check *[messages](https://github.com/kostasthanos/Virtual-on-screen-keyboard/tre
 </p>
 
 ## Color settings and color-tracking
-Define the lower and upper color for the color-tracking part
+Define the lower and upper color for the color-tracking part.
 ```python
 lower_color = np.array([75, 169, 45], np.uint8)
 upper_color = np.array([96, 255, 255], np.uint8)
 ```
-Alternative someone can use trackbars window. See *[Hand Detection and Finger Counting](https://github.com/kostasthanos/Hand-Gestures-and-Finger-Counting)* for more details.
+Alternative someone can use trackbars window. See *[Hand Detection and Finger Counting](https://github.com/kostasthanos/Hand-Detection-and-Finger-Counting)* for more details.
 
 ## Print-write selected character
 First of all find the max contour in the frame. Find the center of the max contour and check if center is inside a letter box per row of rectangles in frame.
