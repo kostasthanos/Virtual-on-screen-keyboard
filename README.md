@@ -6,7 +6,7 @@ For a full presentation of the working project watch the [video](https://www.you
 [![Virtual-on-screen-keyboard](http://img.youtube.com/vi/RSONBwBbhgA/0.jpg)](https://www.youtube.com/watch?v=RSONBwBbhgA "Virtual keyboard using Python and OpenCV library")
 
 ## Main Idea
-The main idea of this project is to display the keys of a keyboard on the screen and allow the user to select (type) a character when the desired color (or finger) is inside the rectangle which corresponds to a key.
+The main idea of this project is to display the keys of a keyboard on the screen and allow the user with the help of a web camera to select a character when the desired color (or finger) is "virtualy" inside the rectangle which corresponds to a key.
 
 ## Settings for drawing the on-screen keyboard
 ### [1] Rectangle and Text settings
@@ -82,7 +82,7 @@ Define the lower and upper color for the color-tracking part
 lower_color = np.array([75, 169, 45], np.uint8)
 upper_color = np.array([96, 255, 255], np.uint8)
 ```
-Alternative someone can use trackbars window. See *[Hand Gestures](https://github.com/kostasthanos/Hand-Gestures-and-Finger-Counting)* for more details.
+Alternative someone can use trackbars window. See *[Hand Detection and Finger Counting](https://github.com/kostasthanos/Hand-Gestures-and-Finger-Counting)* for more details.
 
 ## Print-write selected character
 First of all find the max contour in the frame. Find the center of the max contour and check if center is inside a letter box per row of rectangles in frame.
